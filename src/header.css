@@ -1,0 +1,39 @@
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    height: 75px;
+    background-color: white;
+  }
+  
+  .titulo{
+    margin-left: 15px;
+    color:white;
+    font-family: 'Reem Kufi Fun', sans-serif;
+    font-size: 36px;
+    -webkit-text-stroke: 0.1px red;
+    line-height: 0px;
+  }
+  
+  .cart{
+    height: 75px;
+    width: 75px;
+    line-height: 75px;
+    margin-right: 15px;
+    font-family: 'Reem Kufi Fun', sans-serif;
+  }
+
+  .cart-value{
+    display: inline-block;
+    position: fixed;
+    width: 15px;
+    height: 15px;
+    font-size: 14px;
+    border: 1px solid red;
+    border-radius: 50%;
+    line-height: 15px;
+    top: 20px;
+    right: 20px;
+    background: red;
+}
+  
